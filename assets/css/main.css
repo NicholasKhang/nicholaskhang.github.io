@@ -1,0 +1,302 @@
+/*---------------------------------------------------*/
+/* GENERAL 
+/* --------------------------------------------------*/
+html, body {
+	padding: 0;
+	margin: 0;
+	font-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	font-size: 16px;
+}
+
+body {
+	background-color: #0c0c0c;
+	color: #ffffff;
+	font-family: elianto;
+	text-shadow: 1px 1px 1px #a2f7f6;	
+}
+
+h1 {
+	color: #ffffff;
+	text-shadow: 2px 2px 6px #a2f7f6;
+	text-align: center;
+	font-family: exan;
+	font-size: 30px;
+}
+
+h2 {
+	font-weight: normal;
+	text-shadow: 2px 2px 6px #a2f7f6;
+}
+
+a {
+	color: #a2f7f6;
+	text-decoration: none;
+}
+
+a.btn {
+	font-family: orbitron;
+	color: #a2f7f6;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+a:hover {
+	text-shadow: 1px 0px 20px #f2fcfc;
+	color: #aef9f8;
+}
+
+.text-color2 {
+	color: #e0e0e0;
+}
+
+/*---------------------------------------------------*/
+/* FONT
+/* --------------------------------------------------*/
+@font-face {
+    font-family: "orbitron";
+    src:url(font/orbitron-medium.otf);
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+    font-family: "orbitron";
+    src:url(font/orbitron-light.otf);
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face {
+    font-family: "orbitron";
+    src: url(font/orbitron-black.otf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "elianto";
+	src: url(font/Elianto-Regular.ttf);
+}
+
+@font-face {
+	font-family: "exan";
+	src: url(font/Exan-Regular.ttf);
+}
+
+/*---------------------------------------------------*/
+/* TOP MENU
+/* --------------------------------------------------*/
+#top-menu {
+	background-color: #041b2b;
+	position: relative;
+	width: 1276px;
+	margin: auto auto;
+}
+
+#top-menu .td-top-menu {
+	padding-left: 33px;
+	padding-right: 33px;
+	height: 50px;
+}
+
+#top-menu a{
+	font-weight: normal;
+	color: #e7b438;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 88%;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+#top-menu a:hover {
+	text-shadow: 1px 0px 20px yellow;
+	color: #fec905;
+}
+
+/*---------------------------------------------------*/
+/* HOME (FIRST PAGE)
+/* --------------------------------------------------*/
+#home {
+	background-image: url(../image/7135.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	position: relative;
+	height: 90vh;
+}
+
+.home {
+	text-align: center;
+}
+
+h1.big {
+	margin-top: 0px;
+	padding-top: 150px;
+	font-weight: bolder;
+}
+
+h1.small {
+	font-weight: normal;
+}
+
+a.home {
+	text-align: center;
+	font-style: italic;
+}
+
+/*---------------------------------------------------*/
+/* ABOUT PAGE
+/* --------------------------------------------------*/
+
+h1.page-header {
+	font-size: 30px;
+	background-color: #041b2b;
+	outline-color: #a2f7f6; 
+	outline-style: ridge;
+	outline-width: normal;
+	padding: 0px
+}
+
+#about {
+	height: 100vh;
+	text-shadow: 0px 0px 0px;
+}
+
+.about {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*---------------------------------------------------*/
+/* SKILLS PAGE
+/* --------------------------------------------------*/
+#skills{
+	text-shadow: 0px 0px 0px;
+}
+
+/* PROGRESS CHART */
+div.skills {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.chart-bar {
+	position: relative;
+	margin: 10px;
+	width: 60%;
+	height: 180px;
+	margin-bottom: 70px;
+}
+
+.chart-bar > .axis-title {
+	position: absolute;
+	width: 15%;
+	height: 100%;
+	top: 0;
+	border-right: 1px solid #ffffff
+}
+
+.chart-bar > .axis-title > .title {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 30px;
+	top: 5px;
+}
+
+.chart-bar > .items {
+	position: absolute;
+	width: 85%;
+	height: 100%;
+	top: 0;
+	left: 15%;
+	border-bottom: 1px solid #ffffff
+	
+}
+
+.chart-bar > .items > .item {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 2px;
+	height: 30px;
+	vertical-align: middle;
+	background: red;
+	background: linear-gradient(to right, #041b2b, #a2f7f6);
+	background: -webkit-linear-gradient(left, #041b2b, #a2f7f6);
+	background: -o-linear-gradient(right, #041b2b, #a2f7f6);
+	background: -moz-linear-gradient(right, #041b2b, #a2f7f6);
+	/*background-color: #c80a48;*/
+}
+
+.chart-bar > .items > .item > .percent {
+	position: relative;
+	top: 5px;
+	left: 50%;
+}
+
+/*---------------------------------------------------*/
+/* RESUME PAGE
+/* --------------------------------------------------*/
+#resume {
+	height: 100vh;
+}
+
+div.resume {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.panel-group {
+	position: relative;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.panel-group > .resume-item {
+	position: relative;
+
+}
+
+.panel-group > .resume-item > .resume-year {
+	position: relative;
+	width: 120px;
+	height: 43px;
+	background-color: #041b2b;
+	text-align: center;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+
+.panel-group > .resume-item > .resume-panel {
+	position: relative;
+	background: transparent;
+	border: 1px solid #6e6e6e;
+	border-radius: 0px;
+	margin-left: 210px;
+	width: calc(100% - 210px);
+	top: -43px;
+}
+
+.panel-group > .resume-item > .resume-panel > .panel-heading {
+	position: relative;
+	padding: 10px; 15px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.panel-group > .resume-item > .resume-panel > .panel-body {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-top: none;
+	color: #a1a1a1;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-shadow: none;
+}
