@@ -1,50 +1,55 @@
+<!DOCTYPE html>
+
 <head>
 	<title>Nicholas Lee</title>
 		
 	<!-- Import font from Google -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">	
-	<link href="assets/css/main.css" rel="stylesheet" type:"text/css">
 	
+	<!-- Import Boostrap CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">		
+	
+	<!-- Import Google Icon -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Import Font Awesome Icon -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Import Main CSS -->
+	<link href="assets/css/main.css" rel="stylesheet" type="text/css">
+
+
 </head>
 
 <body>
 
-	<!-- MENU START -->
-	<nav id="top-menu">
-		<table width="100%" border="0" cellpadding="0" cellspacing"0">
-		<tr align="center">
-			<td class="td-top-menu"><a href="#home">Home</a></td>
-			<td class="td-top-menu"><a href="#about">About Me</a></td>
-			<td class="td-top-menu"><a href="#skills">Skills</a></td>
-			<td class="td-top-menu"><a href="#resume">Resume</a></td>			
-			<td class="td-top-menu"><a href="#contact">Contact</a></td>
-		</tr>
-		</table>
+	<!-- TOP MENU START -->
+	<nav class="topnav" id="top-menu">
+		<h2>NIC</h2>
+		<a href="#home">Home</a>
+		<a href="#about">About Me</a>
+		<a href="#skills">Skills</a>
+		<a href="#resume">Resume</a>
+		<a href="#contact">Contact</a>
+		<a href="javascript:void(0);" class="icon" onclick="responsiveMenu()">&#9776;</a>
 	</nav>
-	<!-- MENU END -->	
+	<!-- TOP MENU END -->
 	
-	
-	
-	<!-- HEADER START -->
+	<!-- HOME SECTION START -->
 	<header id="home">
-		<div class="home">
-			<h1 class="big">I'm Nicholas Lee</h1>
-			
-			<h1 class="small">Accounts Executive</h1>
-			
-			<p class="home">I'm an accountant, I love coding, gaming, and music</p>
-			
-			<a class="home btn" href="#about">About Me</a>
-		</div> <!-- home -->
-	
+		<h1 class="big">I'm Nicholas Lee</h1>
+
+		<h1 class="small">Accounts Executive</h1>
+
+		<p class="home">I'm an accountant, I love coding, gaming, and music</p>
+
+		<a class="home btn" href="#about">About Me</a>
 	</header>
-	<!-- HEADER END -->		
+	<!-- HOME SECTION END -->
 
 	
 	<!-- ABOUT ME SECTION START -->
 	<section id="about">
-	
 		<!-- ABOUT ME DESCRIPTION START-->
 		<h1 class="about page-header">About Me</h1>
 		<h2 class="about">Hello, My name is Nicholas Lee</h2>
@@ -61,29 +66,30 @@
 		<h4 class="about">Contact Details</h4>
 		
 		<ul>
-		Nicholas Lee:
-			<li><a href="mailto:nicholaskhang87@gmail.com">
-				nicholaskhangkhang87@gmail.com</a></li>
-			<li><a href="http://nicholaskhang.github.io" target="_blank">
-				nicholaskhang.github.io</a></li>
+			<li>
+				<span class="icon-btn glyphicon glyphicon-envelope"></span>
+				<a href="mailto:nicholaskhang87@gmail.com">Email: nicholaskhangkhang87@gmail.com</a>
+			</li>
+			<li>
+				<span class="icon-btn glyphicon">W</span>
+				<a href="http://nicholaskhang.github.io" target="_blank">Website</a>
+			</li>
+			<li>
+				<i class="icon-btn fa fa-facebook"></i>
+				<a href="https://facebook.com/nicholas.lee.372">Facebook</a>
+			</li>
 		</ul>
 		
 		<!-- RESUME DOWNLOAD LINK -->
-		<a class="about" href="assets/PDF/Nicholas_Lee_Resume2017.pdf" target="_blank">
-			Download Resume
+		<a class="about btn" href="assets/PDF/Nicholas_Lee_Resume2017.pdf" target="_blank">
+			<i class="fa fa-link"></i> Download Resume
 		</a>
 		
 		<!-- PROFILE PICTURE -->
 		<img src="assets/images/profile-picture.jpg" alt="profile picture"/>
-		
 	</section>
 	<!-- ABOUT ME SECTION END -->
 	
-	
-
-	
-	
-
 	
 	<!-- SKILLS SECTION START -->
 	<section id="skills">
@@ -136,47 +142,7 @@
 				</div> <!-- items -->		
 			</div> <!-- chart-bar -->
 			
-			<h2>Skills:</h2>
-			<div class="chart-bar" style="height: 420px">
-				<div class="axis-title">
-					<div class="title">Microsoft Excel</div>
-					<div class="title">VBA</div>
-					<div class="title">HTML & CSS</div>
-					<div class="title">Javascript</div>
-					<div class="title">Visual Basic</div>
-					<div class="title">Java</div>
-					<div class="title">C/C++</div>
-					<div class="title">Ruby</div>
-				</div> <!-- axis-title -->
-				
-				<div class="items">
-					<div class="item" style="width: 92%">
-						<span class="percent">92%</span>
-					</div>
-					<div class="item" style="width: 87%">
-						<span class="percent">87%</span>
-					</div>
-					<div class="item" style="width: 41%">
-						<span class="percent">41%</span>
-					</div>
-					<div class="item" style="width: 32%">
-						<span class="percent">32%</span>
-					</div>
-					<div class="item" style="width: 76%">
-						<span class="percent">76%</span>
-					</div> 
-					<div class="item" style="width: 69%">
-						<span class="percent">69%</span>
-					</div>
-					<div class="item" style="width: 35%">
-						<span class="percent">35%</span>
-					</div>
-					<div class="item" style="width: 43%">
-						<span class="percent">43%</span>
-					</div><!-- item -->
-				</div> <!-- items -->		
-			</div> <!-- chart-bar -->
-			
+						
 			<h2>Accounting Software:</h2>
 			<div class="chart-bar" style="height: 320px">
 				<div class="axis-title">
@@ -210,13 +176,78 @@
 				</div> <!-- items -->		
 			</div> <!-- chart-bar -->			
 			
+			<h2>Programming Languages:</h2>
+			<div class="circle-chart">
+				<div class="row">
+					
+					<div class="col-sm-4 col-md-2">
+						<div class="item">
+							<div class="circle">
+								<span class="item-progress" style="height: 92%"></span>
+							</div>
+							<span class="percent">92%</span>
+							<h4 class="text-center">Visual Basic & VBA</h4>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 col-md-2">
+						<div class="item">
+							<div class="circle">
+								<span class="item-progress" style="height: 47%"></span>
+							</div>
+							<span class="percent">47%</span>
+							<h4 class="text-center">HTML & CSS</h4>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 col-md-2">
+						<div class="item">
+							<div class="circle">
+								<span class="item-progress" style="height: 32%"></span>
+							</div>
+							<span class="percent">32%</span>
+							<h4 class="text-center">Javascript</h4>
+						</div>
+					</div>
+										
+					<div class="col-sm-4 col-md-2">
+						<div class="item">
+							<div class="circle">
+								<span class="item-progress" style="height: 69%"></span>
+							</div>
+							<span class="percent">69%</span>
+							<h4 class="text-center">Java</h4>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 col-md-2">
+						<div class="item">
+							<div class="circle">
+								<span class="item-progress" style="height: 35%"></span>
+							</div>
+							<span class="percent">35%</span>
+							<h4 class="text-center">C/C++</h4>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 col-md-2">
+						<div class="item">
+							<div class="circle">
+								<span class="item-progress" style="height: 43%"></span>
+							</div>
+							<span class="percent">43%</span>
+							<h4 class="text-center">Ruby</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
 		</div> <!-- skills -->
 		
 	</section>
 	<!-- SKILLS SECTION END -->
-	
-	
-	
 	
 	<!-- RESUME SECTION START -->
 	<section id="resume">
@@ -226,18 +257,19 @@
 			<div class="education">
 				<h2>My Education</h2>
 				
-				<div class="panel-group">
+				<div id="education" class="panel-group">
 					<!-- BACHELOR DEGREE START -->
 					<div class="resume-item">
 						<div class="resume-year">
-							<span class="resume-year">2016 - Present</span>
+							<span class="resume-year">2016 - NOW</span>
 						</div> <!-- resume-year -->
+
 						
 						<div class="resume-panel">
 							<div class="panel-heading">
 								<h4 class="resume-title">Bachelor Degree in Technologies - Wawasan Open University</h4>
 							</div> <!-- panel-heading -->
-							<div class="panel-body">
+							<div id="education1" class="panel-body">
 								<p>Major in: Software Engineering</p>
 							</div> <!-- panel-body -->
 						</div> <!-- resume-panel -->
@@ -247,7 +279,7 @@
 					<!-- LCCI DIPLOMA START -->
 					<div class="resume-item">
 						<div class="resume-year">
-							<span class="resume-year">1998 - 1999</span>
+							<span class="resume-year">2003 - 2004</span>
 						</div> <!-- resume-year -->
 						
 						<div class="resume-panel">
@@ -271,7 +303,7 @@
 					<!-- BERJAYA START -->
 					<div class="resume-item">
 						<div class="resume-year">
-							<span class="resume-year">2014 - Present</span>
+							<span class="resume-year">2014 - NOW</span>
 						</div> <!-- resume-year -->
 						
 						<div class="resume-panel">
@@ -331,11 +363,11 @@
 								<h4 class="resume-title">GTower Sdn Bhd - Accounts Executive</h4>
 							</div> <!-- panel-heading -->
 							<div class="panel-body">
-								<p>Industry: Hospitality, Hotels, Gym, Food and Beverages,  Office Leasing</p>
+								<p>Industry: Hospitality, Hotels, Gym, Food and Beverages, Office Leasing</p>
 								<p>Responsibilities:</p>
 								<ul>
 									<li>Opening team for GTower Hotel</li>
-									<li>Handle full set accounts for GTower Group</li>
+									<li>Handle full set accounts for GTower Group (6 F&B Outlets, Gym, Hotel & Offices)</li>
 									<li>Prepare of management reports: Profit & Loss, Balance Sheet, Trial Balance, various schedule and reports</li>
 									<li>Setup reports format and templates</li>
 									<li>Liase with third party such as auditors, tax agent, bankers</li>
@@ -345,20 +377,84 @@
 						</div> <!-- resume-panel -->
 					</div> <!-- resume-item -->
 					<!-- GTOWER END -->
-					
-					
-					
-					
-					
 						
+					<!-- KIOSK BOX START -->
+					<div class="resume-item">
+						<div class="resume-year">
+							<span class="resume-year">2008 - 2009</span>
+						</div> <!-- resume-year -->
+						
+						<div class="resume-panel">
+							<div class="panel-heading">
+								<h4 class="resume-title">Kiosk Box Holding Sdn Bhd - Accounts Assistant</h4>
+							</div> <!-- panel-heading -->
+							<div class="panel-body">
+								<p>Industry: Entertainment and Food and Beverage</p>
+								<p>Responsibilities:</p>
+								<ul>
+									<li>Handle full set accounts for family karaoke</li>
+									<li>Prepare of management reports: Profit & Loss, Balance Sheet, Trial Balance, various schedule and reports</li>
+									<li>Prepare of daily sales report to group</li>
+									<li>Liase with third party such as auditors, tax agent, bankers</li>
+								</ul>
+							</div> <!-- panel-body -->
+						</div> <!-- resume-panel -->
+					</div> <!-- resume-item -->
+					<!-- KIOSK BOX END -->
+					
+					<!-- TNS START -->
+					<div class="resume-item">
+						<div class="resume-year">
+							<span class="resume-year">2006 - 2008</span>
+						</div> <!-- resume-year -->
+						
+						<div class="resume-panel">
+							<div class="panel-heading">
+								<h4 class="resume-title">The Natural Source / Skinlab - Accounts Executive</h4>
+							</div> <!-- panel-heading -->
+							<div class="panel-body">
+								<p>Industry: Retail - Beauty Care</p>
+								<p>Responsibilities:</p>
+								<ul>
+									<li>Handle full set accounts for 9 outlets</li>
+									<li>Prepare of management reports: Profit & Loss, Balance Sheet, Trial Balance, various schedule and reports</li>
+									<li>Prepare of daily sales report to group</li>
+									<li>Liase with third party such as auditors, tax agent, bankers</li>
+									<li>Stock reconciliation</li>
+									<li>Stock issuance to outlets</li>
+								</ul>
+							</div> <!-- panel-body -->
+						</div> <!-- resume-panel -->
+					</div> <!-- resume-item -->
+					<!-- TNS END -->
+					
+					<!-- YF NG START -->
+					<div class="resume-item">
+						<div class="resume-year">
+							<span class="resume-year">2005 - 2006</span>
+						</div> <!-- resume-year -->
+						
+						<div class="resume-panel">
+							<div class="panel-heading">
+								<h4 class="resume-title">Y.F.Ng & Associates - Accounts, Audit & Tax Assistant</h4>
+							</div> <!-- panel-heading -->
+							<div class="panel-body">
+								<p>Industry: Accounting, Audit and Tax Services</p>
+								<p>Responsibilities:</p>
+								<ul>
+									<li>Provide accounting services to clients</li>
+									<li>Provide audit and draft audit report</li>
+									<li>Prepare company tax computation</li>
+								</ul>
+							</div> <!-- panel-body -->
+						</div> <!-- resume-panel -->
+					</div> <!-- resume-item -->
+					<!-- YF NG END -->
+					
 				</div> <!-- panel-group -->	
-			</div> <!-- education -->
-		
-		
-		
+			</div> <!-- work-experience -->
 		
 		</div> <!-- resume -->
-	
 	
 	</section>
 	<!-- RESUME SECTION END -->	
@@ -368,18 +464,76 @@
 	
 	<!-- CONTACT SECTION START -->
 	<section id="contact">
-	
+		<div class="row">
+			<h1 class="contact page-header">Contact</h1>		
+			<h1 class="small">Feel free to contact me</h1>
+		</div>
+		
+		<div class="row">
+			<div class="speech-bubble">
+				<h2 class="speech-bubble">Say</h2>
+				<h2 class="speech-bubble">Hello</h2>
+			</div>
+			<h1>Nicholas, <strong>Lee</strong></h1>
+			<h4>nicholaskhang87@gmail.com</h4>
+		</div>
+		
 	</section>
 	<!-- CONTACT SECTION END -->
-
-
+	
 </body>
 
 
 <footer>
-<!--
-	<script src="./js/plugin/jquery-3.2.1.min.js"></script>
-	<script src="./js/plugin/jquery.sticky.js"></script>
-	<script src="./js/main.js"></script>
-	-->
+	<div class="footer container">
+		<div class="row">
+			<div class="col-md-12">
+				<a class="page-top" href="#top-menu"><i class="fa fa-angle-up"></i></a>
+				<ul class="list-inline social-icons">
+					<li>
+						<div class="item">
+							<a href="mailto:nicholaskhang87@gmail.com">
+								<span class="icon-btn glyphicon glyphicon-envelope"></span>
+							</a>
+						</div>
+					</li>
+					
+					<li>
+						<div class="item">
+							<a href="https://www.facebook.com/nicholas.lee.372" target="_blank">
+								<i class="icon-btn fa fa-facebook"></i>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="copyright">
+					<p>© 2017 Nicholas Lee. All rights reserved.</p>
+					<p><strong>Credit :</strong> Background image <a href='http://www.freepik.com/free-vector/digital-technology-background_1055187.htm'>Designed by Freepik</a></p>
+				</div>
+			</div>
+		</div>
+		
+	
+	
+	</div>
+	
+	
+	
+	
+	
+	<!-- Import JQuery -->
+	<script src="assets/js/plugin/jquery-3.2.1.min.js"></script>
+	
+	<!-- Import Bootstrap javascript -->
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>	
+	
+	<!-- Import Main javascript -->
+	<script src="assets/js/main.js"></script>
+
+
 </footer>
