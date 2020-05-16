@@ -253,17 +253,16 @@ div.skills {
 .chart-bar {
 	position: relative;
 	margin: 10px;
-	width: 60%;
+	width: 90%;
 	height: 180px;
 	margin-bottom: 70px;
 }
 
 .chart-bar > .axis-title {
 	position: absolute;
-	width: 20%;
+	width: 120px;
 	height: 100%;
 	top: 0;
-	border-right: 1px solid #ffffff
 }
 
 .chart-bar > .axis-title > .title {
@@ -279,8 +278,9 @@ div.skills {
 	width: 80%;
 	height: 100%;
 	top: 0;
-	left: 20%;
-	border-bottom: 1px solid #ffffff
+    left: 120px;
+    border-left: 1px solid #ffffff;
+	border-bottom: 1px solid #ffffff;
 	
 }
 
@@ -421,7 +421,8 @@ div.resume {
 	border-radius: 0px;
 	margin-left: 210px;
 	width: calc(100% - 210px);
-	top: -43px;
+    top: -43px;
+    min-width: 300px;
 }
 
 .panel-group > .resume-item > .resume-panel > .panel-heading {
